@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/*Start Include Font Family */
+@font-face {
+    font-family: PlayfairDisplay-Regular;
+    src: url(../fonts/playfair-display/PlayfairDisplay-Regular.ttf);
+}
+@font-face {
+    font-family: PTS75F;
+    src: url(../fonts/pt-sans/PTS75F.ttf);
+}
+/*End Include Font Family */
+
+/* Start Header */
+.minimo-header{
+    padding: 35px 0;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    /* border: 1px solid green; */
+}
+.logo{
+    width: 20%;
+    float: left;
+    /* border: 1px solid red; */
+}
+.logo img{
+    width: 100%;
+}
+.nav{
+    width: 75%;
+    float: right;
+    /* border: 1px solid black; */
+}
+.nav ul{
+    float: right;
+    list-style: none;
+}
+.nav ul li{
+    display: inline-block;
+}
+.nav ul li a{
+    margin-right: 100px;
+    font-family: PlayfairDisplay-Regular;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #626262;
+}
+.nav ul li a:hover{
+    color: #000000;
+}
+.nav ul li:last-child a{
+    margin: 0;
+}
+/* End Header */
+/* Start NewsLetter */
+.newsletter{
+    width: 100%;
+    background-color: #f0f0f0;
+}
+.newsletter-content{
+    width: 50%;
+    margin: 70px auto;
+    position: relative;
+}
+.newsletterText h2{
+    margin: 0 0 45px;
+    font-family: PlayfairDisplay-Regular;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+}
+.newsletterInput{
+    text-align: center;
+}
+.newsletterInput input{
+    width: 80%;
+    min-height: 30px;
+    font-family: PlayfairDisplay-Regular;
+    font-weight: 400;
+    font-size: 16px;
+    background: transparent;
+    padding-bottom: 3px;
+    border: none;
+    border-bottom: 0.5px solid #333333;
+}
+.newsletterInput input:focus{
+    outline: none;
+}
+.newsletterIcon{
+    width: 7%;
+    position: absolute;
+    top: 79%;
+    right: 9%;
+}
+.newsletterIcon img{
+    width: 80%;
+    cursor: pointer;
+}
+/* End NewsLetter */
+/* ========== Header 2 Start =============*/
+.header-2{
+    width: 100%;
+    background-color: #fcdb00;
+    padding: 32px 0;
+}
+.container-2{
+    width: 80%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.logo-2{
+    width: 16%;
+    float: left;
+    padding: 9px 0;
+}
+.logo-2 img{
+    width: 100%;
+}
+.menu{
+    width: 80%;
+    float: right;
+}
+.menu ul{
+    float: right;
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    margin-right: 70px;
+    font-family: PTS75F;
+    font-size: 30px;
+    font-weight: bold;
+    color: #010101;
+    text-decoration: none;
+}
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+/* ========== Header 2 End =============*/
